@@ -1,0 +1,31 @@
+.personal-date{
+    margin: 15px 10px;
+    width: 60%;
+    
+
+    .title{
+        margin: 15px;
+        padding: 10px;
+        font-size: 2rem;
+        display: flex;
+
+
+        &__1{
+        border: 3px solid black;
+        background: black;
+        color: #f8f2e9;
+        position: relative;
+        }
+
+        &__2{
+            border: 2px solid black;
+            background: black;
+            color: #f8f2e9;
+            position: absolute;
+            top: 320px;
+            right: 425px;
+        }
+
+    }
+
+}

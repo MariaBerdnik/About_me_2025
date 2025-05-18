@@ -1,0 +1,47 @@
+.hobby-block {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0px;
+    font-size: 2.75rem;
+    transition: 0.3s;
+    
+    a {
+        text-decoration: none;
+    }
+
+
+    &__hover {
+        display: inline-block;
+
+    }
+    
+    &__hover:hover {
+        transform: rotate(3deg) translate(5px);
+        transition: 0.3s;
+
+    }
+
+    &__tutor {
+        margin-right: 80px;
+        text-align: end;
+    }
+
+    &__guide {
+        margin-top: 70px;
+        text-align: center;
+    }
+
+    &__history {
+        text-align: left;
+        margin: 80px 50px 0 0;
+    }
+
+    &__writer {
+        text-align: right;
+        margin: 20px 150px 0 0;
+    }
+
+    &__fashion {
+        margin: 100px 250px 30px 0;
+    }
+}

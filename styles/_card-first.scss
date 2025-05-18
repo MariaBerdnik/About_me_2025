@@ -1,0 +1,53 @@
+.card-first {
+    background-color: white;
+    border-radius: 40px;
+    transform: rotate(-5deg);
+
+
+    .card-base {
+        margin: 5px;
+        background-color: lightgrey;
+        border-radius: 30px;
+        box-shadow: inset -2px -2px 5px lightgray,
+        inset 2px 2px 5px lightgray;
+        background-image: url(/img/bumaznyi-fon.jpg);
+        opacity: 0.8;
+
+        &__title {
+            font-size: 2.75rem;
+            color: #000;
+            opacity: 0.9;
+            margin-top: 20px;
+            
+        }
+
+        .cb-second {
+            display: flex;
+
+            img {
+                border-radius: 5%;
+                margin: 10px;
+            }
+
+
+            &__text {
+                margin-top: 30px;
+                font-size: 2.5rem;
+
+            }
+
+            .contacs-date {
+                margin-top: 50px;
+                margin-left: 50px;
+                font-size: 2rem;
+                display: flex;
+                flex-direction: column;
+                text-align: right;
+            }
+        }
+
+        
+
+        
+    }
+}

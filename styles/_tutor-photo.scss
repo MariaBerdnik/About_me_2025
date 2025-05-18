@@ -1,0 +1,25 @@
+.tutor-photo {
+    display: flex;
+    margin: 30px; 
+
+    
+    &__photo {
+     border-radius: 2%; 
+     position: relative;
+     z-index: 2;
+    }
+
+    &__square {
+        position: absolute;
+        width: 100px;
+	    height: 100px;
+	    background: red;
+        border-radius: 3%;
+        width: 290px;
+        height: 290px;
+        top: 1735px;
+        right: 310px;
+    }
+    
+
+}

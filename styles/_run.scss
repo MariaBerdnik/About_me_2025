@@ -1,0 +1,24 @@
+.run{
+    width: 60%;
+    border-radius: 20px;
+    background: #fff;
+    box-shadow: 10px 10px 20px #d3d3d3, -10px -10px 20px #fff;
+
+    &__title {
+        color: gray;
+        opacity: 0.3;
+        font-size: 1.75rem;
+        text-align: left;
+        margin-left: 20px;
+    }
+
+    &__photo {
+        margin: 10px;
+    }
+
+    &__text {
+        font-size: 1.125rem;
+        margin: 0 40px 20px 40px;
+        text-align: left;
+    }
+}

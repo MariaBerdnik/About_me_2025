@@ -1,0 +1,17 @@
+.about-project {
+    margin: 100px 30px;
+    display: flex;
+
+    &__photo {
+        margin-left: 60px;
+        border-radius: 3%;
+        max-height: 550px;
+    }
+
+    &__text {
+        margin: 20px 30px 80px 100px;
+        font-size: 1.25rem;
+        max-width: 620px;
+        text-align: left;
+    }
+}

@@ -1,0 +1,19 @@
+.date{
+    display: flex;
+    flex-direction: column;
+    
+    
+
+    margin: 110px 10px;
+
+    &__name{
+        font-size: 2rem;
+        text-align: left;
+    }
+
+    .footnote{
+        font-size: 1.25rem;
+        color: gray;
+        margin-bottom: 10px;
+    }
+}

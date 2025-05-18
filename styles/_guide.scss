@@ -1,0 +1,15 @@
+.guide {    
+    max-width: 750px;
+    min-height: 550px;
+
+    &__text {
+
+        border-radius: 20px;
+        background: #fff;
+        box-shadow: 10px 10px 20px #d3d3d3, -10px -10px 20px #fff;
+        margin: 30px 10px;
+        padding: 50px;
+        font-size: 1.125rem;
+        text-align: left;
+    }
+}

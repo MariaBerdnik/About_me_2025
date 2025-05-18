@@ -1,0 +1,394 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 5px;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Special Elite", serif;
+  text-align: center;
+  background-color: white;
+}
+
+a {
+  color: black;
+}
+
+.underline {
+  border: none;
+  border-top: 2px solid dimgray;
+  width: 100%;
+}
+
+h2 {
+  color: gray;
+  opacity: 0.2;
+  font-size: 5.75rem;
+  text-align: left;
+  margin: 80px 0 0 20px;
+}
+
+h4 {
+  color: gray;
+  opacity: 0.6;
+  margin-top: 30px;
+}
+
+.header {
+  background-color: lightgray;
+  margin: 15px 30px 15px 30px;
+  border-radius: 30px;
+}
+
+.word-block {
+  margin: 25px 50px;
+  text-transform: uppercase;
+  font-size: 1.175rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.word-block__line {
+  font-family: "OpenSans", serif;
+  margin: 10px;
+  line-height: 1.5;
+}
+
+.personal-card {
+  margin: 30px 150px 150px 150px;
+  background-color: white;
+  border-radius: 40px;
+  -webkit-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+          box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.card {
+  margin: 7px;
+  background-color: lightgrey;
+  border-radius: 30px;
+  -webkit-box-shadow: inset -2px -2px 5px lightgray, inset 2px 2px 5px lightgray;
+          box-shadow: inset -2px -2px 5px lightgray, inset 2px 2px 5px lightgray;
+  background-image: url(/img/bumaznyi-fon.jpg);
+  opacity: 0.8;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.photo-block {
+  margin: 15px 10px;
+  overflow: hidden;
+}
+
+.photo-block__main {
+  border-radius: 5%;
+  height: 450px;
+}
+
+.photo-block__text {
+  margin: 10px;
+  font-size: 2.75rem;
+}
+
+.personal-date {
+  margin: 15px 10px;
+  width: 60%;
+}
+
+.personal-date .title {
+  margin: 15px;
+  padding: 10px;
+  font-size: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.personal-date .title__1 {
+  border: 3px solid black;
+  background: black;
+  color: #f8f2e9;
+  position: relative;
+}
+
+.personal-date .title__2 {
+  border: 2px solid black;
+  background: black;
+  color: #f8f2e9;
+  position: absolute;
+  top: 320px;
+  right: 425px;
+}
+
+.date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 110px 10px;
+}
+
+.date__name {
+  font-size: 2rem;
+  text-align: left;
+}
+
+.date .footnote {
+  font-size: 1.25rem;
+  color: gray;
+  margin-bottom: 10px;
+}
+
+.hobby-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 50px 0px;
+  font-size: 2.75rem;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.hobby-block a {
+  text-decoration: none;
+}
+
+.hobby-block__hover {
+  display: inline-block;
+}
+
+.hobby-block__hover:hover {
+  -webkit-transform: rotate(3deg) translate(5px);
+          transform: rotate(3deg) translate(5px);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.hobby-block__tutor {
+  margin-right: 80px;
+  text-align: end;
+}
+
+.hobby-block__guide {
+  margin-top: 70px;
+  text-align: center;
+}
+
+.hobby-block__history {
+  text-align: left;
+  margin: 80px 50px 0 0;
+}
+
+.hobby-block__writer {
+  text-align: right;
+  margin: 20px 150px 0 0;
+}
+
+.hobby-block__fashion {
+  margin: 100px 250px 30px 0;
+}
+
+.tutor-block {
+  margin: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.tutor-block .tutor {
+  font-size: 1.25rem;
+  text-align: left;
+  width: 60%;
+}
+
+.tutor-block .tutor__text {
+  margin: 170px 100px 10px 70px;
+}
+
+.tutor-photo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 30px;
+}
+
+.tutor-photo__photo {
+  border-radius: 2%;
+  position: relative;
+  z-index: 2;
+}
+
+.tutor-photo__square {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: red;
+  border-radius: 3%;
+  width: 290px;
+  height: 290px;
+  top: 1735px;
+  right: 310px;
+}
+
+.attraction {
+  margin: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.attraction h3 {
+  margin: 30px;
+  font-size: 3rem;
+  color: gray;
+  opacity: 0.3;
+  text-align: right;
+}
+
+.guide {
+  max-width: 750px;
+  min-height: 550px;
+}
+
+.guide__text {
+  border-radius: 20px;
+  background: #fff;
+  -webkit-box-shadow: 10px 10px 20px #d3d3d3, -10px -10px 20px #fff;
+          box-shadow: 10px 10px 20px #d3d3d3, -10px -10px 20px #fff;
+  margin: 30px 10px;
+  padding: 50px;
+  font-size: 1.125rem;
+  text-align: left;
+}
+
+.run {
+  width: 60%;
+  border-radius: 20px;
+  background: #fff;
+  -webkit-box-shadow: 10px 10px 20px #d3d3d3, -10px -10px 20px #fff;
+          box-shadow: 10px 10px 20px #d3d3d3, -10px -10px 20px #fff;
+}
+
+.run__title {
+  color: gray;
+  opacity: 0.3;
+  font-size: 1.75rem;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.run__photo {
+  margin: 10px;
+}
+
+.run__text {
+  font-size: 1.125rem;
+  margin: 0 40px 20px 40px;
+  text-align: left;
+}
+
+.about-project {
+  margin: 100px 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about-project__photo {
+  margin-left: 60px;
+  border-radius: 3%;
+  max-height: 550px;
+}
+
+.about-project__text {
+  margin: 20px 30px 80px 100px;
+  font-size: 1.25rem;
+  max-width: 620px;
+  text-align: left;
+}
+
+.my-contacs {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ccc));
+  background-image: linear-gradient(top, #fff, #ccc);
+  margin: 80px 0 0 0;
+}
+
+.card-contacs {
+  margin: 150px auto;
+  background-color: white;
+  border-radius: 40px;
+  -webkit-transform: rotate(3deg);
+          transform: rotate(3deg);
+  width: 800px;
+}
+
+.card-first {
+  background-color: white;
+  border-radius: 40px;
+  -webkit-transform: rotate(-5deg);
+          transform: rotate(-5deg);
+}
+
+.card-first .card-base {
+  margin: 5px;
+  background-color: lightgrey;
+  border-radius: 30px;
+  -webkit-box-shadow: inset -2px -2px 5px lightgray, inset 2px 2px 5px lightgray;
+          box-shadow: inset -2px -2px 5px lightgray, inset 2px 2px 5px lightgray;
+  background-image: url(/img/bumaznyi-fon.jpg);
+  opacity: 0.8;
+}
+
+.card-first .card-base__title {
+  font-size: 2.75rem;
+  color: #000;
+  opacity: 0.9;
+  margin-top: 20px;
+}
+
+.card-first .card-base .cb-second {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.card-first .card-base .cb-second img {
+  border-radius: 5%;
+  margin: 10px;
+}
+
+.card-first .card-base .cb-second__text {
+  margin-top: 30px;
+  font-size: 2.5rem;
+}
+
+.card-first .card-base .cb-second .contacs-date {
+  margin-top: 50px;
+  margin-left: 50px;
+  font-size: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: right;
+}
+/*# sourceMappingURL=style.css.map */
